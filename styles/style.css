@@ -1,0 +1,45 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Container-Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.body{
+  margin: 0;
+}
+
+.Button{
+  border: none;
+  background-color: #393646;
+  color: white;
+  border-radius: 10px;
+  font-size: xx-large;
+  height: 100px;
+  width: 200px;
+}
+
+.Canvas-game {
+  border: 2px solid #393646;
+  border-radius: 10px;
+}
+
+.Coordenadas{
+  color: blueviolet;
+}
